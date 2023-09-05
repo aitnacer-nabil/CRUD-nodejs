@@ -1,0 +1,19 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "CRUD User Management System – Nodejs, Express, MongoDB & EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitnacer-nabil/CRUD-nodejs.git"
+  },
+  "author": "nabil-ait-nacer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aitnacer-nabil/CRUD-nodejs/issues"
+  },
+  "homepage": "https://github.com/aitnacer-nabil/CRUD-nodejs#readme"
+}
