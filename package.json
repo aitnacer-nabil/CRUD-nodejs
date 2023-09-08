@@ -4,7 +4,8 @@
   "description": "CRUD User Management System – Nodejs, Express, MongoDB & EJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/aitnacer-nabil/CRUD-nodejs/issues"
   },
-  "homepage": "https://github.com/aitnacer-nabil/CRUD-nodejs#readme"
+  "homepage": "https://github.com/aitnacer-nabil/CRUD-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.0"
+  }
 }
